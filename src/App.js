@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import './lit-element/custom-component.js';
+import Wrapper from './wrapper';
 
 function App() {
+
   return (
     <div className="App">
-      <custom-element>test</custom-element>
+      <h1>Lit Element and React test</h1>
+      <Wrapper />
     </div>
   );
 }
